@@ -1,0 +1,34 @@
+{
+  "status":1,
+  "msg":null,
+  "data": [
+    {
+      "fs":"/dev/xvda3",
+      "used":11064180,
+      "available":33677228,
+      "usage":"25%",
+      "mounted":"/"
+    },
+    {
+      "fs":"tmpfs",
+      "used":72,
+      "available":1958408,
+      "usage":"1%",
+      "mounted":"/dev/shm"
+    },
+    {
+      "fs":"/dev/xvda1",
+      "used":27910,
+      "available":156091,
+      "usage":"16%",
+      "mounted":"/boot"
+    },
+    {
+      "fs":"console:/hpc",
+      "used":31398240,
+      "available":14031776,
+      "usage":"70%",
+      "mounted":"/hpc"
+    }
+  ]
+}
